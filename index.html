@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="telas_maiores.css">
+</head>
+<body>
+    <main>
+        <h1>Verificador de idade</h1>
+        <div id="informacoes">
+            <div id="nidade">
+                <label for="iidade">Informe sua idade:</label>
+                <input type="number" name="idade" id="iidade" placeholder="0" max="99" min="0" required>
+            </div>
+            <div id="botao">
+                <input id="botao" type="submit" value="Verificar">
+            </div>
+        </div>
+        <div id="sexo">
+            <label for="imasculino">Masculino</label>
+            <input type="radio" name="genero" id="imasculino" checked>
+            <label for="ifeminino">Feminino</label>
+            <input type="radio" name="genero" id="ifeminino">
+        </div>
+        <div id="mensagem">
+            
+        </div>
+        <div id="foto">
+            <img src="interrogacao.png" alt="interrogacao">
+        </div>
+    </main>
+    <script src="javascript.js"></script>
+</body>
+</html>
